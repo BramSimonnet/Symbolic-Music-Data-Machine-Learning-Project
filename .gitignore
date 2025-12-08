@@ -1,0 +1,33 @@
+# === RAW DATASETS (DO NOT PUSH) ===
+data/raw_midi/
+data/raw_midi/*
+data/raw_midis/
+data/raw_midis/*
+data/raw/
+data/raw/*
+*.mid   # in case any MIDI slips through
+*.midi
+
+# === PROCESSED DATA ===
+data/processed/*
+!data/processed/.gitkeep   # keep directory structure
+
+# === MODEL CHECKPOINTS ===
+models/
+models/*
+!models/.gitkeep
+
+# === LOG FILES ===
+*.log
+*.out
+*.err
+
+# === Python Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === MacOS Crap ===
+.DS_Store
+*/.DS_Store
