@@ -1,22 +1,22 @@
-# Raw and processed MIDI datasets (never commit these)
+# Ignore raw + processed MIDI/ABC data
 data/raw_midi/
 data/raw_midis/
 data/processed/midis_text/
-data/processed/midi_txt/
 data/processed/midi_text/
-data/processed/*
+data/processed/midi_txt/
+data/processed/midi_abc/
+data/processed/midi_abc_clean/
 
-# Models + checkpoints
-models/
-checkpoints/
+# Ignore any other large outputs
+*.mid
+*.abc
+*.txt
+*.npz
 *.pt
-*.pth
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Logs
+*.pkl
 *.log
 *.out
 *.err
+
+__pycache__/
+*.pyc
