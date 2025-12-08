@@ -1,12 +1,22 @@
+# Raw and processed MIDI datasets (never commit these)
 data/raw_midi/
 data/raw_midis/
-*.mid
-*.midi
-*.npz
+data/processed/midis_text/
+data/processed/midi_txt/
+data/processed/midi_text/
+data/processed/*
+
+# Models + checkpoints
+models/
+checkpoints/
 *.pt
-*.pkl
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
 *.log
 *.out
 *.err
-__pycache__/
-*.pyc
