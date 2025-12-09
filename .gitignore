@@ -1,22 +1,28 @@
-# Ignore raw + processed MIDI/ABC data
-data/raw_midi/
-data/raw_midis/
-data/processed/midis_text/
-data/processed/midi_text/
-data/processed/midi_txt/
-data/processed/midi_abc/
-data/processed/midi_abc_clean/
+data/
 
-# Ignore any other large outputs
-*.mid
-*.abc
-*.txt
-*.npz
+!nanoGPT/data/**
+
+nanoGPT/output*/
+nanoGPT/*output*/
+*/output*/
+*/checkpoints*/
 *.pt
+
+*.bin
+*.npy
+*.npz
 *.pkl
+*.pt
 *.log
 *.out
 *.err
 
+*.mid
+*.midi
+*.abc
+*.txt
+
 __pycache__/
 *.pyc
+
+.DS_Store

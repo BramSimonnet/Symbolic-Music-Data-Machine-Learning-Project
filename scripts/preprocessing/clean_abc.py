@@ -9,8 +9,15 @@ os.makedirs(OUT_DIR, exist_ok=True)
 REMOVE_PATTERNS = [
     r"^calling midi2abc.*",
     r"^mid2abc.*",
-    r"^X:.*", r"^T:.*", r"^M:.*", r"^L:.*", r"^Q:.*",
-    r"^K:.*", r"^V:.*", r"^%.*", r"^\s*$"
+    r"^X:.*",
+    r"^T:.*",
+    r"^M:.*",
+    r"^L:.*",
+    r"^Q:.*",
+    r"^K:.*",
+    r"^V:.*",
+    r"^%.*",
+    r"^\s*$"
 ]
 
 compiled_patterns = [re.compile(p) for p in REMOVE_PATTERNS]
