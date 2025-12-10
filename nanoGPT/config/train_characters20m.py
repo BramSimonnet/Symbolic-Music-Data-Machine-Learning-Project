@@ -1,22 +1,22 @@
 out_dir = 'music-characters-output20m'
 device = 'cpu'
 compile = False
-eval_interval = 1000
+eval_interval = 250
 eval_iters = 200
-log_interval = 100
+log_interval = 50
 always_save_checkpoint = False
-
 wandb_log = False
 wandb_project = 'music'
 wandb_run_name = 'music-characters20m'
 
-dataset = 'music_characters'
+dataset = 'music_char_nanogpt'
 gradient_accumulation_steps = 2
 batch_size = 8
-block_size = 512
-
+block_size = 128
+eval_only = False
+init_from = 'scratch'
 learning_rate = 3e-4
-max_iters = 200000
+max_iters = 2500
 weight_decay = 1e-4
 decay_lr = True
 
@@ -26,6 +26,6 @@ min_lr = 1e-5
 
 dropout = 0.1
 
-n_layer = 8
+n_layer = 10
 n_head = 8
 n_embd = 384

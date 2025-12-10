@@ -1,28 +1,33 @@
-data/
+data/raw_midi/
+data/music_char_nanogpt/
+data/processed/
+data/tokenised/
+data/splits/
 
-!nanoGPT/data/**
+data/logs/*.pt
+data/logs/*.pth
+data/logs/**/*.pt
+data/logs/**/*.pth
 
 nanoGPT/output*/
 nanoGPT/*output*/
 */output*/
 */checkpoints*/
-*.pt
 
+*.pt
+*.pth
 *.bin
+
 *.npy
 *.npz
-*.pkl
-*.pt
 *.log
 *.out
 *.err
 
+__pycache__/
+*.pyc
+.DS_Store
+
 *.mid
 *.midi
 *.abc
-*.txt
-
-__pycache__/
-*.pyc
-
-.DS_Store

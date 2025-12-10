@@ -1,0 +1,120 @@
+(cogs118a) bramsimonnet@Mac nanoGPT % cd nanoGPT
+python train.py config/train_characters50m.py
+
+cd: no such file or directory: nanoGPT
+Overriding config with config/train_characters50m.py:
+out_dir = 'music-characters-output50m'
+device = 'cpu'
+compile = False
+eval_interval = 250
+eval_iters = 200
+log_interval = 50
+always_save_checkpoint = False
+wandb_log = False
+wandb_project = 'music'
+wandb_run_name = 'music-characters50m'
+
+dataset = 'music_char_nanogpt'
+gradient_accumulation_steps = 2
+batch_size = 8
+block_size = 128
+eval_only = False
+init_from = 'scratch'
+learning_rate = 3e-4
+max_iters = 2500
+weight_decay = 1e-4
+decay_lr = True
+
+warmup_iters = 200
+lr_decay_iters = max_iters
+min_lr = 1e-5
+
+dropout = 0.1
+
+n_layer = 12
+n_head = 8
+n_embd = 640
+tokens per iteration will be: 2,048
+found vocab_size = 92 (inside data/music_char_nanogpt/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 59.06M
+/Users/bramsimonnet/Documents/GitHub/Symbolic-Music-Data-Machine-Learning-Project/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/opt/anaconda3/envs/cogs118a/lib/python3.12/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+num decayed parameter tensors: 50, with 59,123,200 parameters
+num non-decayed parameter tensors: 25, with 16,000 parameters
+using fused AdamW: False
+step 0: train loss 4.7327, val loss 4.6875
+iter 0: loss 4.6873, time 59543.56ms, mfu -100.00%
+iter 50: loss 1.6247, time 1023.09ms, mfu 0.23%
+iter 100: loss 1.0660, time 1010.31ms, mfu 0.24%
+iter 150: loss 0.7986, time 1021.57ms, mfu 0.24%
+iter 200: loss 0.3806, time 982.42ms, mfu 0.24%
+step 250: train loss 0.8320, val loss 1.6028
+saving checkpoint to music-characters-output50m
+iter 250: loss 0.8007, time 59775.80ms, mfu 0.21%
+iter 300: loss 1.2376, time 997.74ms, mfu 0.22%
+iter 350: loss 0.5885, time 1018.40ms, mfu 0.22%
+iter 400: loss 1.0942, time 1000.82ms, mfu 0.22%
+iter 450: loss 0.7123, time 998.35ms, mfu 0.22%
+step 500: train loss 0.6922, val loss 1.4107
+saving checkpoint to music-characters-output50m
+iter 500: loss 0.7604, time 59462.95ms, mfu 0.20%
+iter 550: loss 0.6285, time 979.38ms, mfu 0.20%
+iter 600: loss 0.5975, time 957.02ms, mfu 0.21%
+iter 650: loss 0.6131, time 1165.40ms, mfu 0.21%
+iter 700: loss 0.6879, time 1021.90ms, mfu 0.21%
+step 750: train loss 0.5886, val loss 1.2691
+saving checkpoint to music-characters-output50m
+iter 750: loss 1.1303, time 58364.98ms, mfu 0.19%
+iter 800: loss 0.7421, time 1028.96ms, mfu 0.20%
+iter 850: loss 0.3080, time 992.64ms, mfu 0.20%
+iter 900: loss 0.4346, time 1017.53ms, mfu 0.20%
+iter 950: loss 0.5563, time 1018.90ms, mfu 0.21%
+step 1000: train loss 0.5138, val loss 1.1486
+saving checkpoint to music-characters-output50m
+iter 1000: loss 0.4383, time 60446.67ms, mfu 0.19%
+iter 1050: loss 0.3917, time 1053.12ms, mfu 0.19%
+iter 1100: loss 0.6259, time 1059.98ms, mfu 0.19%
+iter 1150: loss 0.7565, time 1009.74ms, mfu 0.20%
+iter 1200: loss 0.3865, time 993.61ms, mfu 0.20%
+step 1250: train loss 0.4834, val loss 1.0803
+saving checkpoint to music-characters-output50m
+iter 1250: loss 0.7251, time 61901.75ms, mfu 0.18%
+iter 1300: loss 0.9065, time 1003.84ms, mfu 0.19%
+iter 1350: loss 0.4722, time 1006.00ms, mfu 0.19%
+iter 1400: loss 0.2341, time 999.28ms, mfu 0.20%
+iter 1450: loss 0.3855, time 1020.17ms, mfu 0.20%
+step 1500: train loss 0.4536, val loss 1.0292
+saving checkpoint to music-characters-output50m
+iter 1500: loss 0.4526, time 62073.11ms, mfu 0.18%
+iter 1550: loss 0.6756, time 997.90ms, mfu 0.19%
+iter 1600: loss 0.5799, time 1102.61ms, mfu 0.19%
+iter 1650: loss 0.5044, time 1010.31ms, mfu 0.20%
+iter 1700: loss 0.2688, time 1039.83ms, mfu 0.20%
+step 1750: train loss 0.4191, val loss 0.9568
+saving checkpoint to music-characters-output50m
+iter 1750: loss 0.8231, time 502430.08ms, mfu 0.18%
+iter 1800: loss 0.8431, time 1306.90ms, mfu 0.18%
+iter 1850: loss 0.0221, time 1078.27ms, mfu 0.18%
+iter 1900: loss 0.3241, time 1048.98ms, mfu 0.19%
+iter 1950: loss 0.4997, time 1034.69ms, mfu 0.19%
+step 2000: train loss 0.4044, val loss 0.9246
+saving checkpoint to music-characters-output50m
+iter 2000: loss 0.5265, time 117858.25ms, mfu 0.17%
+iter 2050: loss 0.5932, time 3042.84ms, mfu 0.16%
+iter 2100: loss 0.6115, time 1049.89ms, mfu 0.17%
+status
+iter 2150: loss 0.7914, time 969.91ms, mfu 0.18%
+iter 2200: loss 0.6692, time 978.13ms, mfu 0.19%
+step 2250: train loss 0.4080, val loss 0.9097
+saving checkpoint to music-characters-output50m
+iter 2250: loss 0.3898, time 59603.27ms, mfu 0.17%
+iter 2300: loss 0.5425, time 1012.11ms, mfu 0.17%
+iter 2350: loss 0.4748, time 980.19ms, mfu 0.18%
+iter 2400: loss 0.3707, time 984.14ms, mfu 0.19%
+iter 2450: loss 0.3524, time 969.02ms, mfu 0.19%
+step 2500: train loss 0.3880, val loss 0.8977
+saving checkpoint to music-characters-output50m
+iter 2500: loss 0.3820, time 56017.29ms, mfu 0.17%
