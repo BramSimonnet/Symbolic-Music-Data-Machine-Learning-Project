@@ -1,6 +1,6 @@
 import os
 
-CLEAN_DIR = "data/processed/midi_abc_clean"
+CLEAN_DIR = "data/processed/abc_fast"
 OUT_PATH = "data/processed/music.txt"
 
 with open(OUT_PATH, "w") as out:
