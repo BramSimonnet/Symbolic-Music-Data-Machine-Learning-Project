@@ -1,0 +1,29 @@
+X:1
+T:Sample
+M:4/4
+K:C
+%%MIDI program 23
+%%MIDI program 10
+E,3
+z8| \
+E,2- E,2-| \
+E,2 E,2 zE,-|
+E,/2z/2E,/2E,2 z3-E,/2D,3-D,/2-| \
+D,2 zG,2D,2 zE,2D,C/2z/2| \
+zz A,,2 zE,,/2z/2B,,3/2B,,/2z3/2A,,/2| \
+zC, zD,2 zD,/2z3/2C,/2z/2|
+z8| \
+zG, zD,/2B,,/2 z/2G,, zD,| \
+z2 G,,3/2z/2 F,,6| \
+z6 D,/2z3/2|
+z6 zD,/2z| \
+z2 z
+zA,,/2z3/2 zB,,/2 z2| \
+z8| \
+z2 B,,D/2z/2B,,/2 z4|
+D,/2z/2 B,,D,/2z6z| \
+z6 D,/2z3/2| \
+z8| \
+z8|
+z8| \
+z8| 

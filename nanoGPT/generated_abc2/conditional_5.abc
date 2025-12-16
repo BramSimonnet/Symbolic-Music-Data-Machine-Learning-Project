@@ -1,0 +1,36 @@
+X:1
+T:Sample
+M:2/4
+K:F
+%%clpIDI program 34
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z6 z/2
+V:1
+%%MIDI program 29
+B/2z2z/2B/2z/2| \
+B/2z/2B/2B/2 z4| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+G/2z2z/2A/2 z3/2A/2z/2| \
+z2 c/2B/2z/2B B/2z/2B/2z/2A3/2z/2B/2z/2| \
+z8|
+z8| \
+z8| \
+z8| \
+A/2z/2B/2A/2f3/2z/2f/2z/2f/2e/2z/2|
+A/2z/2i3/2A/2z/2A/2z/2A/2z/2 A/2z/2A/2z/2 A/2z/2A/2z/2A/2z/2| \
+A/2z/2A/2z/2 A/2z/2A/2z/2 A/2

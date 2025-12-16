@@ -1,0 +1,45 @@
+X:1
+T:Sample
+M:3/4
+K:G
+%%MIDI program 25
+%%MIDI program 93
+%%MIDI program 22
+%%MIDI program 6
+E,,2| \
+E,,6- E,,z- 
+%%MIDI program 38
+g'2 e'la mogram 24
+%%MIDI program 0
+e'b|
+z8| \
+z8| \
+z8| \
+[f'ac] [g'c'b]a [c'bc'][c'g']|
+[c'g] zc'a] z2| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+%%MIDI program 18
+[AC,]8| \
+[AFC,]G,F, F,F,| \
+[BF]A, Bc cB cc

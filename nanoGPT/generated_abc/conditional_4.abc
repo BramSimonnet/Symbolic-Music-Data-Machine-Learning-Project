@@ -1,0 +1,23 @@
+X:1
+T:Sample
+M:4/4
+K:Am
+L: 1/8
+Q:1/4=50
+K:Er/4=0
+V:10
+%%cle
+%%MIDI program 44
+z8| \
+=D,z G,z =D,g| \
+C,z C,z C,z =C,z =C,z =C,z| \
+G,z [=E=C,]z C,z [=CE,]z B,z|
+_B,,z E,z =E,z E,z [ _D=B,,]z [_G,E,]z B,z| \
+[D=B,,-]B,,z B,,z E,z D,z _B,,/2z| \
+B,,z/2E,z [B,B,,-]=Dz _D,/2z/2 D,z D,z3|
+B,,z CwlA' B,,/2z/2A,,/2| \
+% ta 
+% itirl
+D,/2z/2 E,3/2z/2 E,/2z/2E,,/2z/2| \
+=D,3/2z/2 E,z A,,z| \
+=B,,/2z/2B,,/2<B,,/2z/2 B,,/2z3/2B,,/2z
